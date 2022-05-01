@@ -1,0 +1,55 @@
+@import "../../scss/mixins";
+@import "../../scss/variables";
+
+body {
+    background-color: $primaryColor;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 10px;
+}
+
+nav {
+    background-color: $alphaColor;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+a {
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+    color: $primaryColor;
+}
+
+a:hover {
+    background-color: $betaColor;
+}
+
+@media (max-width: 720px) {
+    h2 {
+        text-align: center;
+    }
+
+    nav {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 25px
+    }
+
+    a {
+        text-align: center;
+        padding: 0;
+        width: 100%;
+        padding: 20px 0 20px 0;
+    }
+
+    a:hover {
+        background-color: $deltaColor;
+    }
+}

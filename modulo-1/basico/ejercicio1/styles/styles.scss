@@ -1,0 +1,43 @@
+@import "../../scss/mixins";
+@import "../../scss/variables";
+
+body {
+    background-color: $primaryColor;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75px;
+    height: 70px;
+    margin: 3px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.base-color {
+    color: $primaryColor;
+}
+
+.container-1 {
+    @include generateDLColors($alphaColor);
+}
+
+.container-2 {
+    @include generateDLColors($betaColor);
+}
+
+.container-3 {
+    @include generateDLColors($gammaColor);
+}
+
+.container-4 {
+    @include generateDLColors($deltaColor);
+}

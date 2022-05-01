@@ -1,0 +1,25 @@
+@mixin generateDLColors($baseColor) {
+    .base-color {
+        background-color: $baseColor;
+    }
+
+    $count: 3.7;
+    $i: 0;
+
+    @for $i from 1 through 4 {
+        $colorDarken: darken($baseColor, $count);
+        $colorLighten: lighten($baseColor, $count);
+
+        .darken-#{$i} {
+            background-color: $colorDarken;
+            color: invert($color: $colorDarken);
+        }
+
+        .lighten-#{$i} {
+            background-color: $colorLighten;
+            color: invert($color: $colorLighten);
+        }
+
+        $count: $count+7.3;
+    }
+}
