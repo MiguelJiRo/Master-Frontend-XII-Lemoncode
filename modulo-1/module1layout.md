@@ -18,19 +18,19 @@
   <br><br>
   <li>Crear la barra de navegación de la imagen usando flexbox.</li>
   <ol>
-    <li>width > 720px</li>
+    <li>width > 768px</li>
     <img align="center" src="../images/module1/exercise3a.png" width="512px">
     <br><br>
-    <li>max-width: 720px</li>
+    <li>max-width: 768px</li>
     <img align="center" src="../images/module1/exercise3b.png" width="512px">
   </ol> 
   <br><br>
   <li>Crearemos un elemento de tipo card con Grid CSS.</li>
   <ol>
-    <li>width > 720px</li>
+    <li>width > 768px</li>
     <img align="center" src="../images/module1/exercise4a.png" width="512px">
     <br><br>
-    <li>max-width: 720px</li>
+    <li>max-width: 768px</li>
     <img align="center" src="../images/module1/exercise4b.png" width="512px">
   </ol> 
 </ol> 
