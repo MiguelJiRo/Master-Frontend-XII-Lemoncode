@@ -17,6 +17,7 @@ body {
     grid-template-rows: auto;
     place-items: center;
     list-style-type: none;
+    margin: 10px;
 
     @media only screen and (max-width: 768px) {
         grid-template-columns: 1fr;
@@ -24,6 +25,17 @@ body {
         .card {
             margin: 10px;
         }
+    }
+
+    .card-date-container {
+        text-align: right;
+        margin-right: 10px;
+    }
+
+    .card-button-container {
+        display: flex;
+        justify-content: center;
+        text-align: center;
     }
 }
 
@@ -49,11 +61,6 @@ body {
     margin: 5px;
 }
 
-.card-date-container {
-    text-align: right;
-    margin-right: 10px;
-}
-
 .card-published {
     font-weight: bold;
 }
@@ -62,19 +69,12 @@ body {
     color: $gammaColor;
 }
 
-.card-button-container {
-    text-align: center;
-    height: 7.3vh;
-    margin-top: 20px;
-}
-
 .card-button {
-    display: flex;
-    justify-content: center;
     background-color: $alphaColor;
     color: $primaryColor;
     text-align: center;
     text-decoration: none;
+    width: 200px;
     margin: 10px;
     padding: 10px 0 10px 0;
     border-radius: 5px;

@@ -17,9 +17,10 @@ body {
       grid-template-rows: auto;
   place-items: center;
   list-style-type: none;
+  margin: 10px;
 }
 
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 768px) {
   .grid-container {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
@@ -27,6 +28,21 @@ body {
   .grid-container .card {
     margin: 10px;
   }
+}
+
+.grid-container .card-date-container {
+  text-align: right;
+  margin-right: 10px;
+}
+
+.grid-container .card-button-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
 }
 
 .card {
@@ -52,11 +68,6 @@ body {
   margin: 5px;
 }
 
-.card-date-container {
-  text-align: right;
-  margin-right: 10px;
-}
-
 .card-published {
   font-weight: bold;
 }
@@ -65,23 +76,12 @@ body {
   color: #4700D8;
 }
 
-.card-button-container {
-  text-align: center;
-  height: 7.3vh;
-  margin-top: 20px;
-}
-
 .card-button {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   background-color: #F900BF;
   color: #F5F5F5;
   text-align: center;
   text-decoration: none;
+  width: 200px;
   margin: 10px;
   padding: 10px 0 10px 0;
   border-radius: 5px;

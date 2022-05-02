@@ -33,7 +33,7 @@ a:hover {
   background-color: #9900F0;
 }
 
-@media (max-width: 720px) {
+@media (max-width: 768px) {
   h2 {
     text-align: center;
   }
