@@ -1,0 +1,174 @@
+@import "./variables";
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+///////////////////////////////////////////////
+/////////////////// HEADER ////////////////////
+///////////////////////////////////////////////
+
+.toolbar {
+    display: none;
+    padding: 5px;
+    background-color: $primaryColor;
+
+    @media (min-width: 768px) {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.page-title {
+    background-color: $deltaColor;
+    padding: 10px;
+}
+
+///////////////////////////////////////////////
+/////////////////// CENTER ////////////////////
+///////////////////////////////////////////////
+
+.page-container {
+    display: flex;
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+    }
+
+    @media (min-width: 768px) {
+        flex-direction: none;
+    }
+
+    ///////////////////////////////////////////////
+    //////////////// NAVBAR (LEFT) ////////////////
+    ///////////////////////////////////////////////
+
+    .menu-container {
+        background-color: $alphaColor;
+
+        .menu-title {
+            font-weight: bold;
+            color: $primaryColor;
+            text-align: center;
+            padding: 5px;
+
+            @media (max-width: 768px) {
+                display: none;
+            }
+        }
+
+        .menu-list {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px;
+            position: sticky;
+            top: 0;
+
+            @media (min-width: 768px) {
+                flex-direction: column;
+                justify-content: center;
+            }
+
+            li {
+                background-color: $betaColor;
+                border: 1px solid $secondaryColor;
+                padding: 5px;
+                list-style-type: none;
+                width: 75px;
+                text-align: center;
+
+                @media (min-width: 768px) {
+                    width: 100%;
+                    text-align: left;
+                }
+            }
+
+            li:hover {
+                background-color: $deltaColor;
+                color: $betaColor;
+                cursor: pointer;
+            }
+        }
+
+        @media (min-width: 768px) {
+            width: 200px;
+            height: 120vh;
+        }
+
+        @media (min-width: 1250px) {
+            height: 90vh;
+        }
+    }
+
+    ///////////////////////////////////////////////
+    //////////////// MAIN (RIGHT) /////////////////
+    ///////////////////////////////////////////////
+
+    main {
+
+        background: $gammaColor;
+
+        .list {
+            justify-items: center;
+            padding: 10px;
+
+            @media (max-width: 768px) {
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+            }
+
+            @media (min-width: 768px) {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            @media (min-width: 1068px) {
+                display: inline-flex;
+                flex-wrap: wrap;
+                justify-content: space-around;
+            }
+        }
+
+        .card {
+            display: flex;
+            align-items: center;
+            background-color: $primaryColor;
+            border: 1.3px solid $secondaryColor;
+            text-align: center;
+            width: 95%;
+            margin: 1px;
+
+            @media (min-width: 768px) {
+                flex-direction: column;
+                width: 300px;
+                margin: 10px;
+                padding: 10px;
+            }
+        }
+
+        .card:hover {
+            background-color: $betaColor;
+            color: $primaryColor;
+            cursor: pointer;
+        }
+
+        img {
+            border-radius: 50%;
+            margin: 10px;
+        }
+    }
+}
+
+///////////////////////////////////////////////
+/////////////////// FOOTER ////////////////////
+///////////////////////////////////////////////
+
+footer {
+    // position: fixed;
+    // bottom: 0;
+    background-color: $deltaColor;
+    padding: 15px;
+    // width: 100%;
+}
