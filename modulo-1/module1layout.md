@@ -39,6 +39,7 @@
 <br>
 <ol>
   <li>Layout para una aplicación responsive.</li>
+  <img align="center" src="../images/module1/exercise-extra.png" width="512px">
 </ol> 
 
 ## Layout Reto 🌟
