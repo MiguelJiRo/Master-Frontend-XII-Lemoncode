@@ -39,11 +39,28 @@
 <br>
 <ol>
   <li>Layout para una aplicación responsive.</li>
-  <img align="center" src="../images/module1/exercise-extra.png" width="512px">
+  <img align="center" src="../images/module1/exercise-extra-1.png" width="512px">
+  <li>Al hacer scroll no perdemos la barra de navegación</li>
+  <img align="center" src="../images/module1/exercise-extra-2.png" width="512px">
+  <li>Diseño Mobile/Tablet (hasta 768px de ancho)</li>
+  <img align="center" src="../images/module1/exercise-extra-3.png" width="512px">
+  
+
 </ol> 
 
 ## Layout Reto 🌟
 <br>
 <ol>
   <li>Diseño de una página para una plataforma online de vídeo en streaming.</li>
+  <ol>
+    <li>Diseño Desktop (ancho 1280px mínimo)</li>
+    <img align="center" src="../images/module1/exercise-reto-1280pxmin.png" width="512px">
+    <br><br>
+    <li>Diseño Mobile/Tablet (1024px - 1280px)</li>
+    <img align="center" src="../images/module1/exercise-reto-1024pxmin-1280pxmax.png" width="512px">
+    <li>Diseño Mobile/Tablet (420px - 1024px)</li>
+    <img align="center" src="../images/module1/exercise-reto-420pxmin-1024pxmax.png" width="512px">
+    <li>Diseño Mobile/Tablet (420px máximo)</li>
+    <img align="center" src="../images/module1/exercise-reto-420pxmax.png" width="512px">
+  </ol> 
 </ol> 
