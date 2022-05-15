@@ -1,0 +1,13 @@
+@import url('https://fonts.google.com/specimen/Jost?preview.text=warner+live&preview.text_type=custom');
+
+$alphaColor: #141414;
+$betaColor: #0093AB;
+$gammaColor: #00AFC1;
+$deltaColor: #FFD124;
+
+$primaryColor: #F5F5F5;
+$secondaryColor: #333;
+
+@mixin jostFont {
+    font-family: 'Jost', sans-serif;
+}
