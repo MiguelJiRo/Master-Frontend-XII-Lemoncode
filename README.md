@@ -34,3 +34,12 @@
         Módulo_4_Frameworks --> Módulo_4_Angular
         Módulo_4_Frameworks --> Módulo_4_Vue
  ```
+
+ <img align="center" src="https://media.giphy.com/media/7j2hfyeVcDtf2/giphy.gif" width="128px">
+
+```mermaid
+    gantt
+        apple :a, 2017-07-20, 1w
+        banana :crit, b, 2017-07-23, 1d
+        cherry :active, c, after b a, 1d
+```
