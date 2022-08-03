@@ -40,7 +40,7 @@
 ```mermaid
     gantt
         módulo1 :a, 2022-05-01, 2w
-        módulo2 :a, b, 2022-05-07, 3w
-        módulo3 :a, b, 2022-07-01, 3w
-        módulo4 :active, c, after b a, 2022-07-23
+        módulo2 :b, 2022-05-07, 3w
+        módulo3 :c, 2022-07-01, 3w
+        módulo4 :active, d, 2022-07-23
 ```
