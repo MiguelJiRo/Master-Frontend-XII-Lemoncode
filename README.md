@@ -18,6 +18,8 @@
 
  ```mermaid
  sequenceDiagram
-    Alice->>John: Hello John, how are you?
-    John-->>Alice: Great!
+    participant "Frontend" as Master Frontend XII Lemoncode 🍋
+    participant "Backend" as Backend
+    Frontend -> Backend: "Hola"
+    Backend -> Frontend: "Hola"
  ```
