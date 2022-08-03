@@ -1,12 +1,7 @@
 # Module 2 - Languages
 
 [Go back - Index](../README.md#sub-section) 
-
-<br>  
-<br> 
- <img align="center" src="https://media.giphy.com/media/x49DCuOOBiurrmlEov/giphy.gif" width="128px">
 <br>
-<br> 
 
 ## Deliverables ✨
 <ol>
@@ -41,3 +36,6 @@
     <br>
     <li>Slot Machine ✅</li>
 </ol>
+
+<br> 
+<img align="center" src="https://media.giphy.com/media/x49DCuOOBiurrmlEov/giphy.gif" width="128px">
