@@ -27,6 +27,7 @@
         Módulo_2_Lenguajes --> Parte_Básica 
         Módulo_2_Lenguajes --> Parte_Opcional 
         Módulo_2_Lenguajes --> Módulo_3_Building
+        Módulo_3_Building --> Módulo_3_Building_Parte_Básica
         Módulo_3_Building --> Módulo_3_Building_Parte_Opcional
         Módulo_3_Building --> Módulo_3_Building_Parcel_v2
         Módulo_3_Building --> Módulo_4_Frameworks
