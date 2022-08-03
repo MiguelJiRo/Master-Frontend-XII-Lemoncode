@@ -16,18 +16,8 @@
 
 <img align="center" src="https://media1.giphy.com/media/gizZvICXsQn2g6JajG/giphy.gif?cid=790b76112e4bdca4c41b2a6bcd9b83d5cd340b72c8dd03fb&rid=giphy.gif" width="128px">
 
-```mermaid
-  graph TD;
-      Master Frontend XII Lemoncode 🍋-->b
-      A-->C;
-      B-->D;
-      C-->D;
-```
-
-<div class='mermaid'>
-  graph TD; 
-  A(Start)-->B(Do some stuff); 
-  B(Take some rest)-->C(do more);
-  click B "http://www.github.com" "This is a link"
-  
-</div>
+ ```mermaid
+ sequenceDiagram
+    Alice->>John: Hello John, how are you?
+    John-->>Alice: Great!
+ ```
