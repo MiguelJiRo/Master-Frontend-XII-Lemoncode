@@ -18,10 +18,10 @@
 
  ```mermaid
     stateDiagram
-        [*] --> Master-Frontend-XII-Lemoncode
-        Master-Frontend-XII-Lemoncode --> [*]
+        [*] --> MasterFrontendXIILemoncode
+        MasterFrontendXIILemoncode --> [*]
 
-        Master-Frontend-XII-Lemoncode --> Moving
+        MasterFrontendXIILemoncode --> Moving
         Moving --> Still
         Moving --> Crash
         Crash --> [*]
