@@ -17,14 +17,12 @@
 <img align="center" src="https://media1.giphy.com/media/gizZvICXsQn2g6JajG/giphy.gif?cid=790b76112e4bdca4c41b2a6bcd9b83d5cd340b72c8dd03fb&rid=giphy.gif" width="128px">
 
  ```mermaid
- sequenceDiagram
-    stateDiagram-v2
-    [*] --> New
-    New --> Ready: admitted
-    Ready --> Running: scheduler dispatch
-    Running --> Ready: interrupt
-    Running --> Waiting: I/O or event wait
-    Waiting --> Ready: I/O or event completion
-    Running --> Terminated: exit
-    Terminated --> [*]
+    stateDiagram
+        [*] --> Still
+        Still --> [*]
+
+        Still --> Moving
+        Moving --> Still
+        Moving --> Crash
+        Crash --> [*]
  ```
