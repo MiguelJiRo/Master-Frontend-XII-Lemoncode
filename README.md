@@ -18,11 +18,11 @@
 
  ```mermaid
  sequenceDiagram
-    participant "Master" as Master Frontend XII Lemoncode 🍋
-    participant "Mod1" as Módulo 1 - Layout
-    participant "Mod2" as Módulo 2 - Lenguajes
-    participant "Mod3" as Módulo 3 - Building
-    Master -> Mod1
-    Master -> Mod2
-    Master -> Mod3
+    participant "master" as Master Frontend XII Lemoncode 🍋
+    participant "layout" as Módulo 1 - Layout
+    participant "lenguajes" as Módulo 2 - Lenguajes
+    participant "building" as Módulo 3 - Building
+    master -> layout
+    master -> lenguajes
+    master -> building
  ```
