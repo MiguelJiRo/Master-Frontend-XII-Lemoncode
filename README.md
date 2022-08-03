@@ -18,11 +18,13 @@
 
  ```mermaid
  sequenceDiagram
-    participant "master" as Master Frontend XII Lemoncode 🍋
-    participant "layout" as Módulo 1 - Layout
-    participant "lenguajes" as Módulo 2 - Lenguajes
-    participant "building" as Módulo 3 - Building
-    master -> layout
-    master -> lenguajes
-    master -> building
+    stateDiagram-v2
+    [*] --> New
+    New --> Ready: admitted
+    Ready --> Running: scheduler dispatch
+    Running --> Ready: interrupt
+    Running --> Waiting: I/O or event wait
+    Waiting --> Ready: I/O or event completion
+    Running --> Terminated: exit
+    Terminated --> [*]
  ```
