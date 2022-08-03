@@ -39,7 +39,8 @@
 
 ```mermaid
     gantt
-        apple :a, 2017-07-20, 1w
-        banana :crit, b, 2017-07-23, 1d
-        cherry :active, c, after b a, 1d
+        módulo1 :a, 2022-05-01, 2w
+        módulo2 :a, b, 2022-05-07, 3w
+        módulo3 :a, b, 2022-07-01, 3w
+        módulo4 :active, c, after b a, 2022-07-23
 ```
