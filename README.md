@@ -21,8 +21,8 @@
         [*] --> MasterFrontendXIILemoncode
         MasterFrontendXIILemoncode --> [*]
 
-        MasterFrontendXIILemoncode --> Moving
-        Moving --> Still
-        Moving --> Crash
-        Crash --> [*]
+        MasterFrontendXIILemoncode --> Módulo_1_Layout
+        MasterFrontendXIILemoncode --> Módulo_2_Lenguajes
+        MasterFrontendXIILemoncode --> Módulo_3_Building
+        MasterFrontendXIILemoncode --> [*]
  ```
