@@ -1,6 +1,9 @@
 # Module 2 - Languages
 
-[Go back - Index](../README.md#sub-section) 
+[Go back - Index](../README.md#sub-section)
+
+[Exercises module 2](https://github.com/MiguelJiRo/Master-Frontend-XII-Lemoncode/tree/main/modulo-2/src/01%20deliverables)
+
 <br>
 
 ## Deliverables ✨
@@ -17,7 +20,7 @@
     <br>
     <li>Concat ✅
         <ol>
-            <li>Opcional ✅</li>
+            <li>Optional ✅</li>
         </ol>
     </li>
     <br>
@@ -30,7 +33,7 @@
     <br>
     <li>Read Books ✅
         <ol>
-            <li>Opcional ✅</li>
+            <li>Optional ✅</li>
         </ol>
     </li>
     <br>
