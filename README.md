@@ -31,7 +31,4 @@
         Master_Frontend_XII_Lemoncode --> Módulo_3_Building
         Módulo_3_Building --> Módulo_3_Building_Parte_Opcional
         Módulo_3_Building --> Módulo_3_Building_Parcel_v2
-        Módulo_1_Layout --> [*]
-        Módulo_2_Lenguajes --> [*]
-        Módulo_3_Building --> [*]
  ```
