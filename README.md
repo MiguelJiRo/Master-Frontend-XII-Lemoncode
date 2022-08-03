@@ -18,8 +18,8 @@
 
  ```mermaid
     stateDiagram
-        [*] --> Still
-        Still --> [*]
+        [*] --> Master Frontend XII Lemoncode
+        Master Frontend XII Lemoncode --> [*]
 
         Still --> Moving
         Moving --> Still
