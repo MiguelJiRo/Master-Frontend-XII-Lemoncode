@@ -18,11 +18,20 @@
 
  ```mermaid
     stateDiagram
-        [*] --> MasterFrontendXIILemoncode
-        MasterFrontendXIILemoncode --> [*]
+        [*] --> Master_Frontend_XII_Lemoncode
+        Master_Frontend_XII_Lemoncode --> [*]
 
-        MasterFrontendXIILemoncode --> Módulo_1_Layout
-        MasterFrontendXIILemoncode --> Módulo_2_Lenguajes
-        MasterFrontendXIILemoncode --> Módulo_3_Building
-        MasterFrontendXIILemoncode --> [*]
+        Master_Frontend_XII_Lemoncode --> Módulo_1_Layout
+        Módulo_1_Layout --> Layout_Básico 
+        Módulo_1_Layout --> Layout_Extra  
+        Módulo_1_Layout --> Layout_Reto  
+        Master_Frontend_XII_Lemoncode --> Módulo_2_Lenguajes
+        Módulo_2_Lenguajes --> Parte_Básica 
+        Módulo_2_Lenguajes --> Parte_Opcional_Slot_Machine 
+        Master_Frontend_XII_Lemoncode --> Módulo_3_Building
+        Módulo_3_Building --> Módulo_3_Building_Parte_Opcional
+        Módulo_3_Building --> Módulo_3_Building_Parcel_v2
+        Módulo_1_Layout --> [*]
+        Módulo_2_Lenguajes --> [*]
+        Módulo_3_Building --> [*]
  ```
