@@ -18,8 +18,16 @@
 
 ```mermaid
   graph TD;
-      Master Frontend XII Lemoncode 🍋-->Módulo 1 - Layout[an <b>important</b> <a href='https://github.com/MiguelJiRo/Master-Frontend-XII-Lemoncode/tree/main/modulo-1'>
+      Master Frontend XII Lemoncode 🍋-->b
       A-->C;
       B-->D;
       C-->D;
 ```
+
+<div class='mermaid'>
+  graph TD; 
+  A(Start)-->B(Do some stuff); 
+  B(Take some rest)-->C(do more);
+  click B "http://www.github.com" "This is a link"
+  
+</div>
