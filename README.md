@@ -25,7 +25,7 @@
         Módulo_1_Layout --> Layout_Reto  
         Módulo_1_Layout --> Módulo_2_Lenguajes
         Módulo_2_Lenguajes --> Parte_Básica 
-        Módulo_2_Lenguajes --> Parte_Opcional_Slot_Machine 
+        Módulo_2_Lenguajes --> Parte_Opcional 
         Módulo_2_Lenguajes --> Módulo_3_Building
         Módulo_3_Building --> Módulo_3_Building_Parte_Opcional
         Módulo_3_Building --> Módulo_3_Building_Parcel_v2
