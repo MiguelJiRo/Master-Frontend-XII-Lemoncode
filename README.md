@@ -14,6 +14,9 @@
 
 ## Módulo 4 - Frameworks
 
+## [Módulo 4.1 - React lab](https://github.com/MiguelJiRo/Master-Frontend-XII-Lemoncode-Module-4.1-React-lab)
+
+
 <img align="center" src="https://media1.giphy.com/media/gizZvICXsQn2g6JajG/giphy.gif?cid=790b76112e4bdca4c41b2a6bcd9b83d5cd340b72c8dd03fb&rid=giphy.gif" width="128px">
 
  ```mermaid
@@ -34,6 +37,7 @@
         Módulo_4_Frameworks --> Módulo_4_React
         Módulo_4_Frameworks --> Módulo_4_Angular
         Módulo_4_Frameworks --> Módulo_4_Vue
+        Módulo_4_React --> Módulo_4.1_React_Rick_&_Morty
  ```
 
  <img align="center" src="https://media.giphy.com/media/7j2hfyeVcDtf2/giphy.gif" width="128px">
