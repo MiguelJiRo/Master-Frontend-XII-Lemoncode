@@ -43,6 +43,7 @@
         Módulo_4_Frameworks --> Módulo_4_Angular
         Módulo_4_Frameworks --> Módulo_4_Vue
         Módulo_4_React --> Módulo_4.1_React_Rick_&_Morty
+        Módulo_4_React --> Módulo_5_Testing
         Módulo_5_Testing --> Módulo_5_Testing_Parte_Básica
  ```
 
